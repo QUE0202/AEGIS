@@ -61,12 +61,12 @@ AEGIS aims to support offensive and defensive cybersecurity operations during se
 ---
 
 ## Clone the repository and run AEGIS:
-
-git clone <repository_URL>
+```
+git clone <https://github.com/QUE0202/AEGIS>
 cd aegis
 python main.py red   # to run in Red Team mode
 python main.py blue  # to run in Blue Team mode
-
+```
 ---
 
 ## 🖥️ Usage
@@ -75,20 +75,26 @@ After launching AEGIS in your selected mode, type queries and commands related t
 
 Example queries:
 
-Red Team:
 
-Create a phishing email campaign targeting LinkedIn users.
+*🟥 Red Team:*
+
+Create a phishing email campaign targeting LinkedIn users
 
 Which exploits correspond to CVE-2023-12345?
 
 
-Blue Team:
+*🟦 Blue Team:*
 
-Analyze this system log and suggest an alert rule.
+Analyze this system log and suggest an alert rule
 
 What steps should I take after detecting suspicious network traffic?
 
-Type exit or quit to end the session.
+
+*🧪 WORM:*
+
+Generate a reverse shell payload for Windows
+
+Show a post-exploitation chain for Linux privilege escalation
 
 ---
 
