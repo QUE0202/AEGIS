@@ -1,5 +1,3 @@
-# main.py
-
 import argparse
 import sys
 import os
@@ -7,7 +5,6 @@ from datetime import datetime
 
 from agents.plugins.metasploit_plugin import MetasploitPlugin
 from agents.plugins.nmap_plugin import NmapPlugin
-from agents.plugins.burp_plugin import BurpPlugin
 
 LOG_FOLDER = "reports"
 
